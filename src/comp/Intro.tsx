@@ -2,8 +2,8 @@ import React from "react";
 import TextTransition, {presets} from "react-text-transition";
 
 const PROFESSIONS = [
-    "Programming",
-    "Fullstack",
+    "Distributed Systems",
+    "DevOps",
     "Coding",
 ];
 
@@ -24,8 +24,9 @@ const Intro = () => {
             <div className="relative h-screen flex justify-center items-center flex-col gap-5 ">
                 <div
                     className="flex justify-start h-screen w-full mx-auto justify-center bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 grid grid-rows-2 gap-4">
+                    {/* className="flex justify-start h-screen w-full mx-auto justify-center grid grid-rows-2 gap-4"> */}
                     <div className="row-span-1">
-                        <h1 className="p-20 h-20 w-full text-5xl font-bold">Hey, I'm József Fényes</h1>
+                        <h1 className="p-20 h-20 w-full text-5xl font-bold">Hey, I'm Rob Mullen</h1>
                     </div>
                     <div className="row-span-2">
                         <h1 className='p-20 h-20 w-full text-5xl font-bold'>I mainly do</h1>
