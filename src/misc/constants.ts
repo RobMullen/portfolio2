@@ -2,20 +2,15 @@ export const social = [
     {
         title: "Github",
         icon: "/github.png",
-        link: "https://github.com/pingvin12"
+        link: "https://github.com/RobMullen"
     },
     {
         title: "LinkedIn",
         icon: "/linkedin.png",
-        link: "https://www.linkedin.com/in/jozsef-f-6bb72118b/",
+        link: "https://www.linkedin.com/in/robert-mullen/",
     }
 ]
 export const skills = [
-    {
-        name: "C#",
-        score: 100,
-        image: "/csharp.png",
-    },
     {
         name: "Python",
         score: 100,
@@ -32,9 +27,9 @@ export const skills = [
         image: "/cpp.png",
     },
     {
-        name: "OpenGL",
+        name: "Docker",
         score: 78,
-        image: "/opengl.png",
+        image: "/docker-logo.png",
     },
     {
         name: "Node.js",
@@ -42,9 +37,29 @@ export const skills = [
         image: "/nodejs.png",
     },
     {
+        name: "Phoenix Framework",
+        score: 78,
+        image: "/phoenix-logo.png",
+    },
+    {
+        name: "PostgresSQL",
+        score: 78,
+        image: "/postgresql-inc-logo.png",
+    },
+    {
+        name: "Redis",
+        score: 78,
+        image: "/redis-logo.png",
+    },
+    {
         name: "SQL",
         score: 78,
         image: "/sql.png",
+    },
+    {
+        name: "Terraform",
+        score: 78,
+        image: "/terraform-enterprise-logo.png",
     },
 ]
 export const tools = [
@@ -59,29 +74,18 @@ export const tools = [
 export const about =
     [
         {
-            name: "József Fényes",
-            desc: "Hey, I'm József. " +
-                "I am a software engineer\nwho is curious about low-level code and whatnot.",
+            name: "Rob Mullen",
+            desc: "Hey, I'm Rob. " +
+                "I am a software engineer\nwho is enjoys building distributed systems that improve peoples' lives.",
             profpic: "/profpic.png"
         }
     ]
 export const projects = [
     {
-        title: "UNDERCOVER",
-        desc: "An FPS made in Unity3D.",
-        banner: "/undercover.png",
-        git: "https://github.com/pingvin12/UnderCover",
+        title: "Phoenix Framework-contributor",
+        desc: "Complete web application framework for Elixir.",
+        banner: "/phoenix.png",
+        git: "https://github.com/phoenixframework/phoenix",
     },
-    {
-        title: "3DViewr",
-        desc: "A full-scale desktop application for 3D modelling.",
-        banner: "none",
-        git: "https://github.com/pingvin12/3DViewr",
-    },
-    {
-        title: "3DViewr-frontend",
-        desc: "Frontend part of 3DViewr made using the tauri frontend framework.",
-        banner: "none",
-        git: "https://github.com/pingvin12/3DViewr-Frontend",
-    },
+
 ]
