@@ -33,7 +33,7 @@ const NavigationBar: FC = () => {
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                         <NavigationLink title={"Skills"} href={"#skills"} id={""}/>
                         <NavigationLink title={"Projects"} href={"#projects"} id={""}/>
-                        <NavigationLink title={"Tools or Algorithms"} href={"#tools"} id={""}/>
+                        {/* <NavigationLink title={"Tools or Algorithms"} href={"#tools"} id={""}/> */}
                         <NavigationLink title={"About Me"} href={"#aboutme"} id={""}/>
                         <NavigationLink title={"Contact"} href={"#contact"} id={""}/>
                         <NavigationLink title={"Blog"} href={'/blog'} id={""}/>
